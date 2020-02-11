@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B0ADA9123F215AA0094184A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0ADA9023F215AA0094184A /* main.swift */; };
+		9B0ADA9823F21B7C0094184A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0ADA9723F21B7C0094184A /* Person.swift */; };
+		9B0ADA9A23F21C770094184A /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0ADA9923F21C770094184A /* Student.swift */; };
+		9B0ADA9C23F227330094184A /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0ADA9B23F227330094184A /* Display.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B0ADA8D23F215AA0094184A /* Day4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day4; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0ADA9023F215AA0094184A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B0ADA9723F21B7C0094184A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B0ADA9923F21C770094184A /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B0ADA9B23F227330094184A /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9B0ADA9023F215AA0094184A /* main.swift */,
+				9B0ADA9723F21B7C0094184A /* Person.swift */,
+				9B0ADA9923F21C770094184A /* Student.swift */,
+				9B0ADA9B23F227330094184A /* Display.swift */,
 			);
 			path = Day4;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0ADA9823F21B7C0094184A /* Person.swift in Sources */,
+				9B0ADA9A23F21C770094184A /* Student.swift in Sources */,
+				9B0ADA9C23F227330094184A /* Display.swift in Sources */,
 				9B0ADA9123F215AA0094184A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

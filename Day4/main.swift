@@ -11,3 +11,5 @@ var p1=Person(id:1,name:"geet",gender:Gender.FEMALE,birthDate:Date())
 var s1=Student(id:1,name:"komnal",gender:.FEMALE,marks:["mad":50.0,"mad2":80.0])
 s1.setMarks(code:"mad3",mark:70.05)
 print(s1["mad"])
+s1["mad"]=60.0
+print(s1["mad"])

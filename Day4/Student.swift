@@ -51,6 +51,15 @@ class Student:Person
     private func calculatePercentage()->Double{
         return self.total/Double(self.marks.count)
     }
+    override func display(){
+        super.display()
+        for m in self.marks{
+            print(m.key,":",m.value)
+        }
+        print("total:\(self.total)")
+          print("Percentage:\(self.per)")
+          print("REsult:\(self.result)")
+    }
     
     
 }
